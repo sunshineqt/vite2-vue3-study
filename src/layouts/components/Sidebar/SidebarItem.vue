@@ -26,12 +26,18 @@
   </div>
 </template>
 
+<script>
+export default defineComponent({
+  name: 'SidebarItem',
+})
+</script>
+
 <script setup>
 import path from 'path-browserify';
 import Item from './Item.vue';
 import AppLink from './Link.vue';
 import { isExternal } from 'utils/validate';
-import { defineProps, ref } from 'vue';
+import { defineProps, ref, defineComponent } from 'vue';
 
 const props = defineProps({
   // route object
