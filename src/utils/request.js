@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Nessage, Msgbox, Message } from 'element3';
+import { Message, Msgbox, } from 'element3';
 
 // 创建axios实例
 const service = axios.create({

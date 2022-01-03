@@ -3,7 +3,7 @@
     <el-menu 
       :default-active="activeMenu"
       :background-color="variables.menuBg"
-      :text-color="varibales.menuText"
+      :text-color="variables.menuText"
       :unique-opened="false"
       :active-text-color="variables.menuActiveText"
       mode="vertical"

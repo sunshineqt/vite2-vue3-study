@@ -26,7 +26,7 @@ export const routes = [
     children: [
       {
         path: "home",
-        component: () => import("views/home.vue"),
+        component: () => import("views/Home.vue"),
         name: "Home",
         meta: { title: "首页", icon: "el-icon-s-home" },
         children: [
